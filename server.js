@@ -123,7 +123,7 @@ const mqtt = require("mqtt");
 
 // ===== MQTT CONFIG =====
 const MQTT_BROKER = process.env.MQTT_BROKER || "mqtt://broker.emqx.io";
-const MQTT_TOPIC = process.env.MQTT_TOPIC || "PMS/data";
+const MQTT_TOPIC = process.env.MQTT_TOPIC || "PMS1/data";
 const mqttClient = mqtt.connect(MQTT_BROKER);
 
 // Cache to store device alert active state
